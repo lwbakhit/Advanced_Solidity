@@ -1,6 +1,5 @@
 # Unit 21: You sure can attract a crowd!
 
-![crowd](Images/crowd.png)
 
 ## Background
 
@@ -72,9 +71,8 @@ When sending Ether to the contract, make sure you hit your `goal` that you set, 
 
 Remember, the refund feature of `RefundablePostDeliveryCrowdsale` only allows for refunds once the crowdsale is closed **and** the goal is met. See the [OpenZeppelin RefundableCrowdsale](https://docs.openzeppelin.com/contracts/2.x/api/crowdsale#RefundableCrowdsale) documentation for details as to why this is logic is used to prevent potential attacks on your token's value.
 
-You can add custom tokens in MyCrypto from the `Add custom token` feature:
 
-![add-custom-token](https://i.imgur.com/p1wwXQ9.png)
+
 
 You can also do the same for MetaMask. Make sure to purchase higher amounts of tokens in order to see the denomination appear in your wallets as more than a few wei worth.
 
@@ -82,13 +80,3 @@ You can also do the same for MetaMask. Make sure to purchase higher amounts of t
 
 Deploy the crowdsale to the Kovan or Ropsten testnet, and store the deployed address for later. Switch MetaMask to your desired network, and use the `Deploy` tab in Remix to deploy your contracts. Take note of the total gas cost, and compare it to how costly it would be in reality. Since you are deploying to a network that you don't have control over, faucets will not likely give out 300 test Ether. You can simply reduce the goal when deploying to a testnet to an amount much smaller, like 10,000 wei.
 
-### Submission
-
-Create a Github repo, and a `README.md` file explaining the process for purchasing PupperCoin (or whatever name you came up with).
-
-Also, please provide screenshots to illustrate the functionality (e.g. how you send Ether to the contract, how you add the token to MyCrypto and test a transaction, and how you test the time functionality etc.). Alternatively, you can also record your interactions with the contract as a gif (e.g. https://www.screentogif.com/)
-
-
-Ensure that anyone can run the steps and add the token to MyCrypto, or a similar wallet.
-
-Include information such as the token parameters, token name, crowdsale cap, etc.
